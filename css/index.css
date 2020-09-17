@@ -1,0 +1,125 @@
+body{
+  background-color: #f6f6f6;
+}
+
+a{
+ text-decoration: none;
+}
+
+
+.pocket{
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
+
+.line{
+  width: 95%;
+  border: 1px solid black;
+  margin-top: -140px;
+  margin-left: 30px;
+}
+
+.pokeBall img{
+  width: 340px;
+  height: 200px;
+  position: absolute;
+}
+
+.captur{
+  display: flex;
+}
+
+.GASTLY{
+  width: 410px;
+  height: 240px;
+  margin-left: 180px;
+  margin-top: 20px;
+  background-image: url(../image/Bosque_Secreto.png);
+  background-size: cover;
+}
+
+.PokeCSS{
+  width: 30%;
+  font-size: 25px;
+  color: #6C3483;
+  background-color: rgba(229, 152, 102, 0.7);
+  -webkit-transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.GASTLY:hover .PokeCSS{
+  opacity: 1;
+}
+
+.opasity{
+  width: 410px;
+  height: 90px;
+  margin-top: 123px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(31, 31, 31, 0.9);
+  -webkit-transition: opacity 0.5s;
+  opacity: 0;
+  color: #dad7d7;
+}
+
+.mesage h4{
+  margin: 25px 0px 0px 65px;
+  font-size: 25px;
+}
+
+.mesage p{
+    margin: 2px 0px 0px 65px;
+}
+
+.gbits img{
+  width: 150px;
+  height: 130px;
+  margin: -40px 0px 0px 120px;
+}
+
+.GASTLY:hover .opasity{
+  opacity: 1;
+}
+
+.KOFFING{
+  width: 410px;
+  height: 240px;
+  margin-left: 120px;
+  margin-top: 20px;
+  background-image: url(../image/gas-toxico.jpg);
+  background-size: cover;
+}
+
+.PokeCSS2{
+  width: 30%;
+  font-size: 25px;
+  color: #D4E157;
+  background-color: rgba(144, 164, 174, 0.7);
+  -webkit-transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.KOFFING:hover .PokeCSS2{
+  opacity: 1;
+}
+
+.mesage2 h4{
+  margin: 25px 0px 0px 45px;
+  font-size: 25px;
+}
+
+.mesage2 p{
+    margin: 2px 0px 0px 45px;
+}
+
+.kbits img{
+  width: 80px;
+  height: 70px;
+  margin: -5px 0px 0px 145px;
+}
+
+.KOFFING:hover .opasity{
+  opacity: 1;
+}

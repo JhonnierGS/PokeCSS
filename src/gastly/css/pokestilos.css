@@ -1,0 +1,133 @@
+body{
+  background-color: #221d42;
+}
+
+.head{
+  width: 100%;
+  height: auto;
+  display: flex;
+
+}
+
+.ghost{
+  width: 600px;
+  height: 460px;
+  margin-left: 30px;
+  border-radius: 0% 100% 33% 67% / 52% 47% 53% 48%;
+  background-color: white;
+  padding-top: 90px;
+  background: #733da0;
+  position: absolute;
+}
+
+.circle{
+  width: 450px;
+  height: 420px;
+  margin-left: 20%;
+  border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;
+  background-color: #420f74;
+  padding-top: 30px;
+}
+
+.container{
+  width: 400px;
+  height: 400px;
+  margin-left: 7%;
+  border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;
+  background-color: #774150;
+
+}
+
+.eyes{
+  display: flex;
+
+}
+
+.leftEye{
+  width: 300px;
+  height: 250px;
+  border-radius: 0% 100% 43% 57% / 23% 76% 24% 77%;
+  background-color: white;
+}
+
+.leftPupil{
+  width: 15px;
+  height: 80px;
+  border-radius: 50% 50% 52% 48% / 41% 42% 58% 59%;
+  background-color: black;
+  margin: 110px 0px 0px 145px;
+}
+
+.rightEye{
+  width: 300px;
+  height: 250px;
+  border-radius:100% 0% 57% 43% / 78% 28% 72% 22% ;
+  background-color: white;
+}
+
+.rightPupil{
+  width: 15px;
+  height: 80px;
+  border-radius: 50% 50% 52% 48% / 41% 42% 58% 59%;
+  background-color: black;
+  margin: 110px 0px 0px 105px;
+}
+
+
+.mouth{
+  width: 300px;
+  height: 60px;
+  border-radius: 50% 50% 50% 50% / 10% 12% 88% 90% ;
+  background-color: #f32947;
+  margin: 20px 0px 0px 50px;
+  display: flex;
+}
+
+.leftCanine{
+  width: 25px;
+  height: 80px;
+  border-radius: 0% 100% 52% 48% / 0% 0% 100% 100%;
+  background-color: white;
+  margin-left: 45px;
+}
+
+.rightCanine{
+  width: 25px;
+  height: 80px;
+  border-radius: 0% 100% 52% 48% / 0% 0% 100% 100%;
+  background-color: white;
+  margin-left: 145px;
+
+}
+
+
+.click{
+  width: 100%;
+  height: 50px;
+  margin-left: 700px;
+  margin-top: 220px;
+}
+
+
+.btn-neon{
+  background-color: rgba(0, 0, 0, 0.9);
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  letter-spacing: 4px;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.btn-neon{
+  color: #fff;
+}
+
+.btn-neon:hover{
+  background: #a945c7;
+  box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+}
