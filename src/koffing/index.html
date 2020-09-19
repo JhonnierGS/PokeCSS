@@ -163,7 +163,7 @@
   </header>
 
   <div class="click">
-      <button class="btn-neon" type="button" onclick="oculatarClick()" id="button">
+      <button class="btn-neon" type="button" onmousedown="sound.play()"id="button">
         <span id="span1"></span>
         <span id="span2"></span>
         <span id="span3"></span>
@@ -171,5 +171,10 @@
         <p>KOFFING</p>
       </button>
   </div>
+
+  <script type="text/javascript">
+    var sound = new Audio();
+    sound.src = "sound.mp3";
+  </script>
 </body>
 </html>
